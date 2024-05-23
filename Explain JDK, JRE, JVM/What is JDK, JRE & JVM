@@ -1,0 +1,36 @@
+Java Development Kit (JDK)
+
+The Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (javadoc), and other tools needed for Java development.
+
+Key Components of JDK :
+1.	Javac : The Java compiler, which converts Java source code into bytecode.
+2.	java: The Java application launcher, which runs Java bytecode programs.
+3.	Javadoc: The documentation generator, which creates HTML documentation from Java source code comments.
+4.	Jar: The archiver, which packages related class libraries into a single JAR file for easier distribution and deployment.
+
+
+Java Runtime Environment (JRE)
+
+The Java Runtime Environment (JRE) provides the libraries, Java Virtual Machine (JVM), and other components to run applications written in Java. The JRE is part of the JDK but can be downloaded separately to run Java applications without development tools.
+
+Components of JRE :
+1.	JVM: The heart of Java's platform independence, which executes Java bytecode.
+2.	Core Libraries: Essential libraries that provide basic functionalities and APIs.
+3.	Other Components:- Additional libraries and components required for running Java applications.
+
+
+Java Virtual Machine (JVM)
+
+The Java Virtual Machine (JVM) is a virtual machine that enables Java bytecode to be executed on any platform. It is the cornerstone of Java's platform independence.
+
+ How JVM Works :
+1.	Class Loader: Loads Java class files into the JVM.
+2.	Bytecode Verifier: Checks the code fragments for illegal code that can violate access rights.
+3.	Interpreter: Reads and executes the Java bytecode line by line.
+4.	JIT Compiler: Converts bytecode into native machine code for higher performance.
+
+JVM Components
+1.	Class Loader Subsystem: Responsible for loading class files.
+2.	Runtime Data Areas: Various memory areas used during execution (e.g., Heap, Stack).
+3.	Execution Engine: Executes the bytecode using the interpreter and JIT compiler.
+4.	Native Method Interface: Enables Java to interact with native applications and libraries written in other languages.
