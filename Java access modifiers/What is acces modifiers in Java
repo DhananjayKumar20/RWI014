@@ -1,0 +1,36 @@
+Java access modifiers are keywords that determine the accessibility or scope of a class, constructor, method, or field. They play a crucial role in encapsulation, one of the core principles of Object-Oriented Programming (OOP). Java has four primary access modifiers:
+
+1. Public: The public modifier makes a class, method, constructor, or field accessible from any other class. This is the most permissive access level. Use it when you need to expose elements widely across different packages.
+
+
+   public class MyClass {
+       public void myMethod() {
+           // accessible from anywhere
+       }
+   }
+
+
+2. Protected: The protected modifier allows access within the same package and subclasses. It's less restrictive than default (package-private) but more restrictive than public. Use it for methods and fields that should be inherited but not exposed widely.
+
+   java
+   protected void myProtectedMethod() {
+       // accessible within the same package and subclasses
+   }
+
+3. Default (Package-Private): When no access modifier is specified, Java uses the default access level. It allows access only within the same package. This is useful for encapsulating package-specific logic without exposing it to the rest of the application.
+
+   java
+   void myDefaultMethod() {
+       // accessible only within the same package
+   }
+  
+
+4. Private: The private modifier restricts access to the defining class only. It's the most restrictive access level, ideal for hiding implementation details and enforcing encapsulation.
+
+   java
+   private void myPrivateMethod() {
+       // accessible only within this class
+   }
+   
+
+Understanding and using these access modifiers effectively helps in designing robust, maintainable, and secure Java applications.
